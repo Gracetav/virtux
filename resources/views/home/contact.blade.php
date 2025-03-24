@@ -1,11 +1,19 @@
+<<<<<<< HEAD
 <section class="contact_section ">
     <div class="container px-0">
       <div class="heading_container ">
         <h2 class="">
+=======
+<section class="contact_section  ">
+    <div class="container px-0">
+      <div class="heading_container ">
+        <h2 class="text-dark">
+>>>>>>> 63ca3fa (Inisialisasi proyek Virtux)
           Contact Us
         </h2>
       </div>
     </div>
+<<<<<<< HEAD
     <div class="container container-bg">
       <div class="row">
         <div class="col-lg-7 col-md-6 px-0">
@@ -15,6 +23,10 @@
             </div>
           </div>
         </div>
+=======
+    <div class="container">
+      <div class="row">
+>>>>>>> 63ca3fa (Inisialisasi proyek Virtux)
         <div class="col-md-6 col-lg-5 px-0">
           <form action="#">
             <div>

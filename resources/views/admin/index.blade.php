@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head> 
+<<<<<<< HEAD
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Dark Bootstrap Admin </title>
@@ -586,10 +587,21 @@
                <p class="no-margin-bottom">2018 &copy; Your company. Download From <a target="_blank" href="https://templateshub.net">Templates Hub</a>.</p>
             </div>
           </div>
+=======
+  @include('admin.css')
+  </head>
+  <body>
+  @include('admin.header')
+  
+  @include('admin.sidebar')
+      <!-- Sidebar Navigation end-->
+    @include('admin.body')
+>>>>>>> 63ca3fa (Inisialisasi proyek Virtux)
         </footer>
       </div>
     </div>
     <!-- JavaScript files-->
+<<<<<<< HEAD
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper.js/umd/popper.min.js"> </script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
@@ -598,5 +610,15 @@
     <script src="vendor/jquery-validation/jquery.validate.min.js"></script>
     <script src="js/charts-home.js"></script>
     <script src="js/front.js"></script>
+=======
+    <script src="{{asset('admincss/vendor/jquery/jquery.min.js')}}"></script>
+    <script src="{{asset('admincss/vendor/popper.js/umd/popper.min.js')}}"> </script>
+    <script src="{{asset('admincss/vendor/bootstrap/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('admincss/vendor/jquery.cookie/jquery.cookie.js')}}"> </script>
+    <script src="{{asset('admincss/vendor/chart.js/Chart.min.js')}}"></script>
+    <script src="{{asset('admincss/vendor/jquery-validation/jquery.validate.min.js')}}"></script>
+    <script src="{{asset('admincss/js/charts-home.js')}}"></script>
+    <script src="{{asset('admincss/js/front.js')}}"></script>
+>>>>>>> 63ca3fa (Inisialisasi proyek Virtux)
   </body>
 </html>
