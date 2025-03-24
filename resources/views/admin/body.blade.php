@@ -351,7 +351,7 @@
                   <div class="title"><strong class="d-block">Credit Sales</strong><span class="d-block">Lorem ipsum dolor sit</span></div>
                   <div class="piechart chart">
                     <canvas id="pieChartHome1"></canvas>
-                    <div class="text"><strong class="d-block">$2.145</strong><span class="d-block">Sales</span></div>
+                    <div class="text"><strong class="d-block"></strong><span class="d-block">Sales</span></div>
                   </div>
                 </div>
               </div>
