@@ -1,7 +1,7 @@
-<div class="page-content">
-        <div class="page-header">
+<div class="page-header">
           <div class="container-fluid">
-            <h2 class="h5 no-margin-bottom">Dashboard</h2>
+           
+ <h2 class="h5 no-margin-bottom">Dashboard</h2>
           </div>
         </div>
         <section class="no-padding-top no-padding-bottom">
@@ -351,7 +351,7 @@
                   <div class="title"><strong class="d-block">Credit Sales</strong><span class="d-block">Lorem ipsum dolor sit</span></div>
                   <div class="piechart chart">
                     <canvas id="pieChartHome1"></canvas>
-                    <div class="text"><strong class="d-block"></strong><span class="d-block">Sales</span></div>
+                    <div class="text"><strong class="d-block">$2.145</strong><span class="d-block">Sales</span></div>
                   </div>
                 </div>
               </div>
@@ -383,3 +383,4 @@
                <p class="no-margin-bottom">2018 &copy; Your company. Download From <a target="_blank" href="https://templateshub.net">Templates Hub</a>.</p>
             </div>
           </div>
+        </footer>

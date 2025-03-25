@@ -3,10 +3,9 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
-<<<<<<< HEAD
-=======
+
 use App\Http\Controllers\AdminController;
->>>>>>> 63ca3fa (Inisialisasi proyek Virtux)
+
 use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 Route::get('/',[HomeController::class,'home']);
@@ -25,13 +24,14 @@ require __DIR__.'/auth.php';
 
 route::get('admin/Dashboard',[HomeController::class,'index'])->
     middleware(['auth','admin'])
-<<<<<<< HEAD
 
-
-=======
 ;
 
 route::get('view_category',[AdminController::class,'view_category'])->
     middleware(['auth','admin'])
->>>>>>> 63ca3fa (Inisialisasi proyek Virtux)
+
+;
+
+    Route::get('/view_category', [AdminController::class, 'view_category'])->name('view_category');
+    Route::post('/add_category', [AdminController::class, 'add_category'])->name('add_category');
 ;
